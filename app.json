@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/login/login",
+    "pages/personal/personal",
+    "pages/video/video",
+    "pages/recommengSong/recommengSong",
+    "pages/songDetail/songDetail"
+  ],
+  "requiredBackgroundModes": ["audio"],
+  "window": {
+    "navigationBarBackgroundColor": "#12be74",
+    "navigationBarTitleText": "码鱼云音乐",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#12be74",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "/static/images/tabs/index.png",
+        "selectedIconPath": "/static/images/tabs/index_active.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "视频",
+        "iconPath": "/static/images/tabs/video.png",
+        "selectedIconPath": "/static/images/tabs/video_active.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "/static/images/tabs/my.png",
+        "selectedIconPath": "/static/images/tabs/my_active.png"
+      }
+    ]
+  }
+}
